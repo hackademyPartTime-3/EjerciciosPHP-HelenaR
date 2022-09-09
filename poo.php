@@ -92,17 +92,13 @@ echo $persona2->getname() . "\n" . $persona2->getsurname() . "\n" . $persona2->g
 
 // 3 - Crear una función saludar y la llamo (primero pública y luego privada).
 
-$saludo = "hola";
-/* function saludar($saludo)
-{
-    echo $saludo;
-}
+/* function Greet()
+    {
+        echo " Hola soy:" . $this->name . $this->surname . "\n";
+    }
 
-saludar($saludo); */
-
-/*  private function saludar($saludo)
-{
-    echo $saludo;
-}
-
-saludar($saludo); */
+    private function greets()
+    {
+        return " Hola " . $this->name  . "\n";
+        echo " Hola soy" . $this->name . $this->surname  . "\n";
+    } */
